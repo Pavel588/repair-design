@@ -441,9 +441,9 @@ body {
     color: #fff; }
     .hero__scroll-down::after {
       content: '';
-      background-image: url("../img/arrow-down.svg") no-repeat center;
       width: 30px;
       height: 30px;
+      background: url("../img/arrow-down.svg") no-repeat center;
       border: 2px solid #E3B873;
       border-radius: 50%;
       margin-left: 12px; }
