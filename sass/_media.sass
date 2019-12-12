@@ -19,7 +19,28 @@
         margin-left: 0
 @media screen and ( max-width: 770px )
     .section
-            padding: 54px 0
+      padding: 54px 0
+      &-title
+        text-align: center
+        &__heading
+          font-size: 1.83rem  
+        &__image
+          display: flex
+          justify-content: center
+          align-items: center
+          &::before, &::after
+            content: ''
+            width: 32px
+            height: 2px
+            background-color: $primary
+             margin: 0 10px
+      &__description
+        margin: auto
+        margin-top: 1.4rem
+        margin-bottom: 3.3rem
+        font-size: 1.428rem
+        line-height: 135% 
+        max-width: 53rem            
     .row
         flex-direction: column
         align-items: center
@@ -27,8 +48,13 @@
       &__card
           margin-bottom: 5rem      
     .card
+        &__title
+            font-size: 1.25rem
         &__text
           margin-left: 0 
+        &__pricetag
+            padding: 1.214rem 2.65rem 
+            font-size: 1.24rem 
           
     .design
         padding: 54px 0
