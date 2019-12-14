@@ -460,7 +460,7 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-    max-width: 80px;
+    max-width: 5.96rem;
     height: 100%; }
   .hero__scroll-down {
     position: absolute;
@@ -470,8 +470,8 @@ img {
     left: 0;
     bottom: 0;
     font-size: 0.85rem;
-    min-width: 15.5rem;
-    min-height: 4.92rem;
+    min-width: 17.5rem;
+    min-height: 7rem;
     background-color: #131313;
     text-transform: uppercase;
     text-decoration: none;
@@ -499,7 +499,7 @@ img {
     color: #E3B873;
     transform: rotate(90deg);
     line-height: 0.8;
-    font-size: 0.94rem; }
+    font-size: 1.1rem; }
     .instagram__link::after {
       content: '';
       width: 50px;
@@ -670,7 +670,7 @@ img {
     display: none; }
   .hero__text {
     font-size: 1.5rem;
-    width: 94%; }
+    max-width: 26rem; }
   .hero__button {
     display: block;
     width: 100%;
@@ -696,3 +696,7 @@ img {
   .card__pricetag {
     padding: 1rem 3.1rem;
     font-size: 1.21rem; } }
+
+@media screen and (max-width: 350px) {
+  .hero__text {
+    max-width: 22rem; } }
