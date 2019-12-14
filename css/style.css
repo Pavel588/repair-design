@@ -605,7 +605,7 @@ img {
   .hero__content {
     margin-left: 0; } }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 910px) {
   .section {
     padding: 54px 0; }
     .section-title {
