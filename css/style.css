@@ -649,7 +649,7 @@ img {
   .types__card {
     margin-bottom: 6.5rem; }
   .container {
-    width: 95%; }
+    width: 90%; }
   .section-title__description {
     max-width: 25.8rem;
     font-size: 1.26rem;
@@ -698,5 +698,5 @@ img {
     font-size: 1.21rem; } }
 
 @media screen and (max-width: 350px) {
-  .hero__text {
-    max-width: 22rem; } }
+  .card__text {
+    max-width: 20rem; } }
