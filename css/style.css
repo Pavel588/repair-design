@@ -564,7 +564,8 @@ img {
   text-transform: uppercase;
   background-color: #E3B873;
   color: #fff;
-  padding: 1.214rem 3.8rem; }
+  padding: 1.214rem 0 1.214rem 2.35rem;
+  min-width: 16.3rem; }
 
 .design {
   background-color: #fff; }
@@ -584,13 +585,11 @@ img {
       height: 100%;
       background-color: rgba(19, 19, 19, 0.5); }
 
-@media screen and (max-width: 992px) {
-  .nav__item {
-    margin-right: 2rem; } }
-
 @media screen and (max-width: 1400px) {
   .card__text {
-    max-width: none; } }
+    max-width: none; }
+  .nav__item {
+    margin-right: 1.5rem; } }
 
 @media screen and (max-width: 1200px) {
   html {
@@ -667,6 +666,7 @@ img {
   .title {
     font-size: 1.64rem; }
   .hero__title {
+    max-width: 29rem;
     font-size: 1.924rem;
     line-height: 2.72rem;
     margin-bottom: 0.8rem; }
