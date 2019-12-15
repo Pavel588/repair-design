@@ -460,6 +460,8 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 7.142rem;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
@@ -472,6 +474,15 @@ img {
     width: 100%;
     height: 100%;
     background-color: rgba(19, 19, 19, 0.7); }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3.46rem;
+    background-color: #131313; }
   .hero__content {
     position: relative;
     max-width: 43.85rem;
@@ -496,6 +507,7 @@ img {
     max-width: 5.96rem;
     height: 100%; }
   .hero__scroll-down {
+    z-index: 3;
     position: absolute;
     display: flex;
     justify-content: center;
