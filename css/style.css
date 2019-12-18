@@ -420,14 +420,15 @@ img {
       align-items: center; }
       .section-title__world::after {
         content: '';
-        width: 90px;
-        height: 2px;
+        width: 92px;
+        height: 1px;
         background-color: #E3B873;
-        margin-left: 2rem; }
+        margin-left: 2.4rem; }
     .section-title__text {
       font-size: 1.28rem;
       line-height: 2.07rem;
-      max-width: 31.57rem; }
+      max-width: 31.57rem;
+      margin-bottom: 2rem; }
     .section-title__image {
       display: flex;
       justify-content: center;
@@ -705,6 +706,52 @@ img {
     margin-bottom: 2.7rem; }
   .modal__button {
     align-self: flex-end; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  width: auto;
+  bottom: -2px; }
+
+.swiper-slide {
+  display: flex;
+  flex-wrap: wrap; }
+  .swiper-slide__text {
+    flex-basis: 50%;
+    margin-bottom: 0.8rem;
+    padding-bottom: 2rem; }
+  .swiper-slide__heading {
+    font-size: 1.285rem;
+    line-height: 1.78rem;
+    font-family: 'Yeseva One', cursive;
+    color: #E3B873;
+    text-transform: uppercase;
+    margin-bottom: 0.64rem; }
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.3); }
+  .swiper-pagination-bullet-active {
+    background-color: #fff; }
+
+.swiper-button-prev, .swiper-button-next {
+  bottom: 0;
+  top: auto;
+  background-size: 42px;
+  width: 42px;
+  height: 14px; }
+  .swiper-button-prev::after, .swiper-button-next::after {
+    display: none; }
+
+.swiper-button-prev {
+  left: 0;
+  background: url("../img/arrow-prev.svg") no-repeat center; }
+
+.swiper-button-next {
+  background: url("../img/arrow-next.svg") no-repeat center; }
+
+.section-title__heading_primary {
+  font-size: 1.75rem;
+  font-family: 'Yeseva One', cursive;
+  text-transform: uppercase;
+  line-height: 2.7rem; }
 
 @media screen and (max-width: 1400px) {
   .card__text {
