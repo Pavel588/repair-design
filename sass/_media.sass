@@ -21,12 +21,31 @@
     &__content
         margin-left: 0
 @media screen and ( max-width: 910px )
+    .swiper
+      &-slider
+        &-image
+          margin-top: 0
+    .mobile-order-top
+      order: -1
     .section
       padding: 54px 0
       &-title
         text-align: center
+        &__text
+          margin: auto
+          padding-bottom: 2rem
+        &__world
+          text-align: center;
+          padding-left: 2.5rem
+          &::after
+            display: none        
         &__heading
-          font-size: 1.83rem  
+          font-size: 1.83rem
+          &_primary
+            text-align: center 
+            max-width: 14.07rem
+            margin: auto
+            font-size: 1rem
         &__image
           display: flex
           justify-content: center
@@ -72,6 +91,7 @@
         
                                  
 @media screen and ( max-width: 570px )
+    
     .types
       &__section-title
         margin-bottom: 3.4rem
@@ -134,7 +154,9 @@
           padding: 1.96rem 2.14rem
         &__pricetag
           padding: 1rem 3.1rem 
-          font-size: 1.21rem  
+          font-size: 1.21rem 
+    
+
 @media screen and ( max-width: 350px )  
   .card
     &__text
