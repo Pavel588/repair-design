@@ -34,11 +34,12 @@
         &__text
           margin: auto
           padding-bottom: 2rem
+          max-width: 27rem
         &__world
-          text-align: center;
-          padding-left: 2.5rem
+          justify-content: center
           &::after
-            display: none        
+            display: none 
+            margin: 0       
         &__heading
           font-size: 1.83rem
           &_primary
@@ -80,15 +81,20 @@
            &__description
              line-height: 170%
              min-width: 21.85rem
-           
-         
         &__card
            margin-bottom: 5rem
-       
-            
-            
-
-        
+    .control
+      background: $dark  
+           
+      &__section-title
+        margin-bottom: 2.214rem
+        margin-top: 2rem
+      &__heading
+        color: $light 
+      &__text
+        color: $light
+    .types
+      background: $light         
                                  
 @media screen and ( max-width: 570px )
     
