@@ -108,7 +108,14 @@
            
     .types
       margin-top: -2rem
-      background: $light         
+      background: $light 
+    .footer
+      padding: 0
+      background: $dark
+      &__wrap
+        margin-top: 0
+        background: $dark
+          
                                  
 @media screen and ( max-width: 570px )
     
@@ -175,6 +182,36 @@
         &__pricetag
           padding: 1rem 3.1rem 
           font-size: 1.21rem 
+    .footer
+      &__policy
+        font-size: 1rem
+      &__button
+        width: 100%
+      &__title
+        font-size: 1.67rem
+        margin-bottom: 4.6rem
+      &__form
+        margin: 0
+        max-width: 100%
+      &__wrap
+        padding: 2.5rem 0
+        margin: 0
+      &__input
+        border-bottom: 1px solid $light
+        font-size: 1.5rem
+        &-group
+          flex-basis: 100%
+          margin-bottom: 5rem
+          &_full-width
+            margin-bottom: 0.77rem
+            
+    .label 
+      font-size: 1.2rem      
+    .policy__label_center 
+      justify-content: flex-start 
+      font-size: 1.34rem
+      margin-bottom: 3rem     
+          
     
 
 @media screen and ( max-width: 350px )  

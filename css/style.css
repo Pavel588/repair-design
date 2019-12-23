@@ -373,10 +373,10 @@ template {
   .policy__label_center {
     justify-content: center; }
 
-label.invalid {
+.footer__invalid, .control__invalid, .modal__invalid {
   color: tomato; }
 
-input.invalid {
+input.modal__invalid, input.footer__invalid, input.control__invalid {
   border-bottom: 1px solid tomato; }
 
 .container {
@@ -729,6 +729,9 @@ img {
   position: relative;
   margin: auto; }
 
+input.control__invalid {
+  border-bottom: 1px solid tomato; }
+
 .types__section-title {
   margin-bottom: 2rem; }
 
@@ -834,6 +837,9 @@ img {
     background-color: #131313;
     padding: 4.285rem 0; }
 
+input.footer__invalid {
+  border-bottom: 1px solid tomato; }
+
 .modal {
   opacity: 0;
   visibility: hidden;
@@ -887,6 +893,9 @@ img {
     margin-bottom: 2.7rem; }
   .modal__button {
     align-self: flex-end; }
+
+input.modal__invalid {
+  border-bottom: 1px solid tomato; }
 
 @media screen and (max-width: 1400px) {
   .card__text {
@@ -990,7 +999,13 @@ img {
       margin: auto; }
   .types {
     margin-top: -2rem;
-    background: #fff; } }
+    background: #fff; }
+  .footer {
+    padding: 0;
+    background: #131313; }
+    .footer__wrap {
+      margin-top: 0;
+      background: #131313; } }
 
 @media screen and (max-width: 570px) {
   .types__section-title {
@@ -1045,7 +1060,34 @@ img {
     padding: 1.96rem 2.14rem; }
   .card__pricetag {
     padding: 1rem 3.1rem;
-    font-size: 1.21rem; } }
+    font-size: 1.21rem; }
+  .footer__policy {
+    font-size: 1rem; }
+  .footer__button {
+    width: 100%; }
+  .footer__title {
+    font-size: 1.67rem;
+    margin-bottom: 4.6rem; }
+  .footer__form {
+    margin: 0;
+    max-width: 100%; }
+  .footer__wrap {
+    padding: 2.5rem 0;
+    margin: 0; }
+  .footer__input {
+    border-bottom: 1px solid #fff;
+    font-size: 1.5rem; }
+    .footer__input-group {
+      flex-basis: 100%;
+      margin-bottom: 5rem; }
+      .footer__input-group_full-width {
+        margin-bottom: 0.77rem; }
+  .label {
+    font-size: 1.2rem; }
+  .policy__label_center {
+    justify-content: flex-start;
+    font-size: 1.34rem;
+    margin-bottom: 3rem; } }
 
 @media screen and (max-width: 350px) {
   .card__text {
