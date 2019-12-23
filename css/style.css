@@ -1076,14 +1076,16 @@ input.modal__invalid {
     margin: 0; }
   .footer__input {
     border-bottom: 1px solid #fff;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    color: #fff; }
     .footer__input-group {
       flex-basis: 100%;
       margin-bottom: 5rem; }
       .footer__input-group_full-width {
         margin-bottom: 0.77rem; }
   .label {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5); }
   .policy__label_center {
     justify-content: flex-start;
     font-size: 1.34rem;
