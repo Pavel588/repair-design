@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   // Валидация формы
   $('.modal__form').validate({
-    errorElement: "div",
+    errorElement: "em",
     errorClass: "modal__invalid",
     rules: {
       // строчное правило
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
 
   $('.control__form').validate({
-    errorElement: "div",
+    errorElement: "em",
     errorClass: "control__invalid",
     rules: {
       // строчное правило
@@ -108,7 +108,7 @@ $(document).ready(function () {
 
 
   $('.footer__form').validate({
-    errorElement: "div",
+    errorElement: "em",
     errorClass: "footer__invalid",
     rules: {
       // строчное правило
@@ -145,5 +145,39 @@ $(document).ready(function () {
 
   $('input[type=tel]').mask('+7(000) 000-00-00', {placeholder: "+7(___) ___-__-__"});
 
+  // создание яндекс карты
+  ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+            center: [53.195042, 45.018316],
+            zoom: 9
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+
+        // Создаём макет содержимого.
+        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+        ),
+
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: 'Наш офис',
+            balloonContent: 'Вход сбоку сдания'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/location.png',
+            // Размеры метки.
+            iconImageSize: [32, 32],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -38]
+        });
+
+        
+    myMap.geoObjects
+        .add(myPlacemark);
+  });      
 
 });

@@ -1,6 +1,9 @@
 .footer
     background: $dark url('../img/footer-bg.jpg') no-repeat center  / cover
     padding-top: 3rem
+    &__map
+        margin-bottom: 4rem
+        min-height: 465px
     &__wrap
         background-color: $black
         max-width: 63.07rem
@@ -43,9 +46,54 @@
         padding: 1.285rem 4.785rem
     &__menu
         background-color: $dark
-        padding: 4.285rem 0    
+        padding: 4.285rem 0   
+    &__section-title
+        color: $primary
+        max-width: 38rem
+        margin: auto
+        font-family: 'Yeseva One'
+        font-style: normal
+        font-weight: normal
+        font-size: 1.428rem
+        text-transform: uppercase
+    &__mail
+        display: inline-block;
+        width: 2rem
+        height: 2rem
+        background: url('../img/mail.svg') no-repeat center
+        background-color: $primary
+        border-radius: 50%
+    &__instagram
+        display: inline-block;
+        width: 2rem
+        height: 2rem
+        background: url('../img/instagram.svg') no-repeat center
+        background-color: $primary
+        border-radius: 50%
+        margin-left: 1rem
+    &__icons
+        display: flex
+        justify-content: center
+        margin-top: 2rem
+        margin-bottom: 3rem
+    &__map
+        width: 66.071rem
+        height: 33.214rem
+        margin: auto 
+        filter: grayscale(1)
+        -ms-filter: grayscale(1)
+        -webkit-filter: grayscale(1)
+        -moz-filter: grayscale(1)
+        -o-filter: grayscale(1)  
+        margin-bottom: 4rem    
+                
+
 input
   &.footer__invalid
-    border-bottom: 1px solid tomato        
+    border-bottom: 1px solid tomato   
+em.footer__invalid 
+  position: absolute 
+  top: 4rem
+  left: 0       
 
 
