@@ -1086,10 +1086,10 @@ div.modal__invalid {
     padding: 0;
     background: #131313; }
     .footer__wrap {
-      margin-top: 0;
       background: #131313; }
     .footer__map {
-      width: 100%; } }
+      width: 100%;
+      margin: unset; } }
 
 @media screen and (max-width: 570px) {
   .types__section-title {
