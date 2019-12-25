@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   // Валидация формы
   $('.modal__form').validate({
-    errorElement: "em",
+    errorElement: "div",
     errorClass: "modal__invalid",
     rules: {
       // строчное правило
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
 
   $('.control__form').validate({
-    errorElement: "em",
+    errorElement: "div",
     errorClass: "control__invalid",
     rules: {
       // строчное правило
@@ -108,7 +108,7 @@ $(document).ready(function () {
 
 
   $('.footer__form').validate({
-    errorElement: "em",
+    errorElement: "div",
     errorClass: "footer__invalid",
     rules: {
       // строчное правило
@@ -145,7 +145,7 @@ $(document).ready(function () {
 
   $('input[type=tel]').mask('+7(000) 000-00-00', {placeholder: "+7(___) ___-__-__"});
 
-  // создание яндекс карты
+  /*/// создание яндекс карты
   ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [53.195042, 45.018316],
@@ -178,6 +178,6 @@ $(document).ready(function () {
         
     myMap.geoObjects
         .add(myPlacemark);
-  });      
+  });    */  
 
 });
