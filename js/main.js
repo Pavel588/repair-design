@@ -181,3 +181,11 @@ $(document).ready(function () {
   });    */  
 
 });
+///проверка checkbox
+  $('input[type="checkbox"]').click(function(){
+    if( $(this).is(':checked') ) {
+      // Галочка стоит
+    } else {
+      // Галочка не стоит
+    }
+});
