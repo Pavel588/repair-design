@@ -42,6 +42,7 @@
       display: flex
       flex-direction: column 
   &__input
+      color: $light
       &-group
           position: relative
           display: flex
@@ -49,10 +50,14 @@
           margin-bottom: 3.482rem
           &:last-of-type
             margin-bottom: 1rem
+      &::placeholder
+          color: $light      
   &__policy
       margin-bottom: 2.7rem   
   &__button
-      align-self: flex-end   
+      align-self: flex-end  
+.modal__input
+    color: $light       
 input
   &.modal__invalid
     border-bottom: 1px solid tomato                   

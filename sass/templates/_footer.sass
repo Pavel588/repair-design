@@ -30,6 +30,7 @@
        margin: auto
     &__input
         padding-top: 0.3rem
+        color: $light
         &-group
             position: relative
             display: flex
@@ -39,6 +40,8 @@
         &_full-width
             flex-basis: 100%
             margin-bottom: 2rem
+        &::placeholder
+            color: $light     
     &__policy
         flex-basis: 100% 
         margin-bottom: 3rem
@@ -78,6 +81,7 @@
         margin-top: 2rem
         margin-bottom: 3rem
     &__map
+        max-width: 66.07rem
         width: 100%
         height: 33.214rem
         border: 0
