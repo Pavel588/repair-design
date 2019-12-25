@@ -375,10 +375,6 @@ template {
   .policy__label_center {
     justify-content: center; }
 
-.tel_primary {
-  color: #E3B873;
-  text-decoration: none; }
-
 .container {
   width: 85%;
   max-width: 1256px;
@@ -893,6 +889,9 @@ div.control__invalid {
     margin: auto;
     filter: grayscale(1);
     margin-bottom: 4rem; }
+  .footer__phone {
+    color: #E3B873;
+    text-decoration: none; }
 
 .google-map {
   width: 100%;
