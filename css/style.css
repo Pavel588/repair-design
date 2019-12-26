@@ -1088,6 +1088,7 @@ div.modal__invalid {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 0.1rem; }
   .control__input {
+    border-bottom: 1px solid #FFFFFF;
     margin-bottom: 0.2rem; }
     .control__input::placeholder {
       color: #FFFFFF; }
@@ -1192,9 +1193,7 @@ div.modal__invalid {
   .footer__section-title {
     font-size: 1.285rem;
     text-align: center;
-    max-width: 23rem; }
-  .control__input {
-    border-bottom: 1px solid #FFFFFF; } }
+    max-width: 23rem; } }
 
 @media screen and (max-width: 350px) {
   .card__text {
