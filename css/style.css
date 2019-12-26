@@ -1000,9 +1000,7 @@ div.modal__invalid {
   .hero__instagram {
     display: none; }
   .hero__content {
-    margin-left: 0; } }
-
-@media screen and (max-width: 910px) {
+    margin-left: 0; }
   .swiper-slider-image {
     margin-top: 0; }
   .mobile-order-top {
@@ -1089,7 +1087,7 @@ div.modal__invalid {
     margin-bottom: 0.1rem; }
   .control__input {
     border-bottom: 1px solid #FFFFFF;
-    margin-bottom: 0.2rem; }
+    margin-bottom: 0.5rem; }
     .control__input::placeholder {
       color: #FFFFFF; }
   .types {
