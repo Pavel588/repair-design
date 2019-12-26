@@ -1087,11 +1087,11 @@ div.modal__invalid {
     margin-bottom: 0.1rem; }
   .control__input {
     border-bottom: 1px solid #FFFFFF;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 4.7rem; }
     .control__input::placeholder {
       color: #FFFFFF; }
   .types {
-    margin-top: -2rem;
+    margin-top: -6.4rem;
     background: #FFFFFF; }
   .footer {
     padding: 0;
