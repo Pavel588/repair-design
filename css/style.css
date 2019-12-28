@@ -375,9 +375,6 @@ template {
   .policy__label_center {
     justify-content: center; }
 
-label {
-  margin-bottom: 0.3rem; }
-
 .container {
   width: 85%;
   max-width: 1256px;
@@ -1096,8 +1093,11 @@ div.modal__invalid {
     margin-top: -6.4rem;
     background: #FFFFFF; }
   .footer {
+    margin-top: -14rem;
     background: #131313; }
     .footer__wrap {
+      margin: auto;
+      width: 100%;
       background: #131313; }
     .footer__map {
       width: 100%;
